@@ -1,0 +1,16 @@
+PREFIX: "&6KingDonate &8|"
+EMPTY_DONATE: "%prefix% &fДанного доната не существует."
+EXCELLENT_GIVE: "%prefix% &fВы успешно выдали донат &a%group%&f игроку &a%player%"
+PERMISSION_MESSAGE: "%prefix% &fУ вас недостаточно прав."
+USAGE: "%prefix% &fИспользуй - &e/givedonate ник группа"
+chat_msg: false
+title_msg: true
+groups:
+  vip:
+    title: "&6&l⚡ ⚡ ⚡"
+    subtitle: "&a%player% &f, спасибо за покупку доната &e☾Вип☽"
+    message: "%prefix% &a%player% &eспасибо за покупку доната &e☾Вип☽"
+  admin:
+    title: "&6&l⚡ ⚡ ⚡"
+    subtitle: "&a%player% &f, спасибо за покупку доната &c☾Админ☽"
+    message: "%prefix% &fИгрок &a%player% &fкупил привилегию &c☾Админ☽"
